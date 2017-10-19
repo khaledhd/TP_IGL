@@ -2,6 +2,10 @@ package IGL;
 
 public class VecteurHelper {
 
+  /**
+   * Trier un Vecteur en ordre croissant
+   * @param arr Vecteur a trier
+   */
   public void sort(int[] arr){
 
        boolean stop = false ;
@@ -22,6 +26,10 @@ public class VecteurHelper {
 
    }
 
+   /**
+    * Inverser les elements du Vecteur
+    * @param tab Vecteur a inverser
+    */
    public void reverse(int[] tab){
       int c;
       int j = tab.length - 1 ;
