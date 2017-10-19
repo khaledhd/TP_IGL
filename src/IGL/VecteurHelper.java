@@ -53,7 +53,15 @@ public class VecteurHelper {
           return resultat;
       }
     }
-
+    /**
+     * Effectuer la Multiplication des elements d'un Vecteur par deux
+     * @param tab Vecteur a traiter
+     */
+    public void multiple(int [] tab) {
+        for (int i = 0; i < tab.length; i++) {
+            tab[i] *= 2 ;
+        }
+    }
 
 
 }
